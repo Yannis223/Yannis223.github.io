@@ -2,122 +2,99 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# About Me
 
-[Link to another page](./another-page.html).
+I'm a Machine Learning and AI student from Greece, specializing in deep learning applications for healthcare and medical imaging. I build and train neural networks to solve real-world problems, with a focus on computer vision and classification tasks.
 
-There should be whitespace between paragraphs.
+## Skills
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+**Machine Learning & Deep Learning**
+- TensorFlow, Keras, Scikit-learn
+- Computer Vision (CNN, VGG16, MobileNetV2)
+- Transfer Learning & Fine-tuning
+- Model Evaluation & Optimization
 
-# Header 1
+**Programming & Tools**
+- Python (NumPy, Pandas, Matplotlib, Seaborn)
+- OpenCV, Plotly, SciPy
+- Google Colab, Jupyter Notebook
+- Git & GitHub
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+**Techniques**
+- K-Fold Cross-Validation
+- Hyperparameter Tuning
+- Data Preprocessing & Augmentation
+- Statistical Analysis
 
-## Header 2
+## Current Focus
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Deep Learning for Medical Imaging & Healthcare AI
 
-### Header 3
+---
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Featured Projects
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### [Glaucoma Detection Using Neural Networks](https://github.com/Yannis223/glaucoma-detection)
+Binary classification of retinal fundus images using three deep learning architectures.
 
-#### Header 4
+**Tech Stack:** TensorFlow, Keras, CNN, VGG16, MobileNetV2, OpenCV
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+**Key Results:**
+- Custom CNN: 98% accuracy
+- Implemented transfer learning with ImageNet weights
+- K-Fold cross-validation for robust evaluation
+- Complete model comparison with statistical analysis
 
-##### Header 5
+[View Project](https://github.com/Yannis223/glaucoma-detection) | [View Code](https://github.com/Yannis223/glaucoma-detection)
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+---
 
-###### Header 6
+### [Heart Disease Prediction](https://github.com/Yannis223/heart-disease-prediction)
+Machine learning classification models for predicting heart disease from clinical data.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+**Tech Stack:** Scikit-learn, Pandas, Logistic Regression, Random Forest, KNN
 
-### There's a horizontal rule below this.
+**Key Results:**
+- KNN Model: 99.02% accuracy
+- Stratified K-Fold cross-validation
+- ROC-AUC scores > 0.94 for all models
+- Comprehensive preprocessing pipeline
 
-* * *
+[View Project](https://github.com/Yannis223/heart-disease-prediction) | [View Code](https://github.com/Yannis223/heart-disease-prediction)
 
-### Here is an unordered list:
+---
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+### [Tribot - Travel Chatbot](https://github.com/Yannis223/tribot)
+Python-based conversational chatbot providing travel information for 10 major destinations.
 
-### And an ordered list:
+**Tech Stack:** Python, Regular Expressions, Natural Language Processing
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+**Features:**
+- Information on 10 global destinations
+- Pattern matching for query understanding
+- Eliza-style conversational responses
+- Complete travel data (prices, weather, attractions)
 
-### And a nested list:
+[View Project](https://github.com/Yannis223/tribot) | [View Code](https://github.com/Yannis223/tribot)
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+---
 
-### Small image
+## Education & Learning
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+Continuously expanding my knowledge in:
+- Advanced neural network architectures
+- Medical image analysis
+- Natural language processing
+- MLOps and model deployment
 
-### Large image
+---
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+## Contact
 
+- GitHub: [@Yannis223](https://github.com/Yannis223)
+- LinkedIn: [Your LinkedIn](YOUR_LINKEDIN_URL)
+- Location: Thessaloniki, Greece
 
-### Definition lists can be used with HTML syntax.
+---
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+[View All Projects](./projects.html)
